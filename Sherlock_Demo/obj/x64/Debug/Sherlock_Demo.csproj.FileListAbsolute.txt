@@ -1,0 +1,28 @@
+c:\users\daekhon\documents\visual studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\Sherlock_Demo.exe.config
+c:\users\daekhon\documents\visual studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.csproj.ResolveComReference.cache
+c:\users\daekhon\documents\visual studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\Sherlock_Demo.exe
+c:\users\daekhon\documents\visual studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\Sherlock_Demo.pdb
+c:\users\daekhon\documents\visual studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.csprojResolveAssemblyReference.cache
+c:\users\daekhon\documents\visual studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.Properties.Resources.resources
+c:\users\daekhon\documents\visual studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.csproj.GenerateResource.Cache
+c:\users\daekhon\documents\visual studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.exe
+c:\users\daekhon\documents\visual studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.pdb
+c:\users\daekhon\documents\visual studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.Form_Main.resources
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Interop.ipedisplayctrlLib.dll
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\AxInterop.ipedisplayctrlLib.dll
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\Interop.ipedisplayctrlLib.dll
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\AxInterop.ipedisplayctrlLib.dll
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\Sherlock_Demo.exe.config
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\Sherlock_Demo.exe
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\Sherlock_Demo.pdb
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\AxipedisplayctrlLib.dll
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.csproj.ResolveComReference.cache
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.Form_Main.resources
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.Properties.Resources.resources
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.csproj.GenerateResource.Cache
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.exe
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.pdb
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\ipedisplayctrlLib.dll
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\ipeenginectrlLib.dll
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\bin\x64\Debug\stdole.dll
+E:\Daekhon\Project\3D LineProfiler\Sherlock_Demo\Sherlock_Demo\obj\x64\Debug\Sherlock_Demo.csprojResolveAssemblyReference.cache

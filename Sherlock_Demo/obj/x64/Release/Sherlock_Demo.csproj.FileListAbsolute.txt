@@ -1,0 +1,13 @@
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\bin\x64\Release\Sherlock_Demo.exe.config
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Release\Interop.ipedisplayctrlLib.dll
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Release\AxInterop.ipedisplayctrlLib.dll
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Release\Sherlock_Demo.csproj.ResolveComReference.cache
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\bin\x64\Release\Sherlock_Demo.exe
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\bin\x64\Release\Sherlock_Demo.pdb
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\bin\x64\Release\Interop.ipedisplayctrlLib.dll
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\bin\x64\Release\AxInterop.ipedisplayctrlLib.dll
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Release\Sherlock_Demo.Form_Main.resources
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Release\Sherlock_Demo.Properties.Resources.resources
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Release\Sherlock_Demo.csproj.GenerateResource.Cache
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Release\Sherlock_Demo.exe
+C:\Users\Daekhon\Documents\Visual Studio 2015\Projects\Sherlock_Demo\Sherlock_Demo\obj\x64\Release\Sherlock_Demo.pdb

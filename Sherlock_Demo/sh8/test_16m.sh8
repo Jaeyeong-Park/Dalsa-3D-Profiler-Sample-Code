@@ -1,0 +1,1055 @@
+{
+    "engine": {
+        "alignmentMgr": {
+            "__valueOrder": [
+                "alignmentA"
+            ],
+            "alignmentA": {
+                "allow_rotation": {
+                    "bool": true
+                },
+                "allow_x_shift": {
+                    "bool": true
+                },
+                "allow_y_shift": {
+                    "bool": true
+                },
+                "create_id": "alignment",
+                "name": "alignmentA",
+                "rotation": {
+                    "number": 0
+                },
+                "rotation_anchor_home": {
+                    "point": "2433.50137588856614457 6138.36393694244543440"
+                },
+                "rotation_anchor_pos": {
+                    "point": "0.00000000000000000 0.00000000000000000",
+                    "supl": "search_areaA.bottom_right"
+                },
+                "rotation_center": {
+                    "point": "2056.25886141941646201 4323.63912167167291045"
+                },
+                "shift_anchor_home": {
+                    "point": "2056.25886141941646201 4323.63912167167291045"
+                },
+                "shift_anchor_pos": {
+                    "point": "0.00000000000000000 0.00000000000000000",
+                    "supl": "search_areaA.top_left"
+                },
+                "x_shift": {
+                    "number": 0
+                },
+                "y_shift": {
+                    "number": 0
+                }
+            }
+        },
+        "imageSourceMgr": {
+            "__valueOrder": [
+                "fileA",
+                "camA"
+            ],
+            "camA": {
+                "acquired_lines": {
+                    "number": 5500
+                },
+                "bytespp": {
+                    "number": 0
+                },
+                "cam_type": {
+                    "number": 0
+                },
+                "create_id": "cam",
+                "data_format": {
+                    "string": "unknown"
+                },
+                "device": {
+                    "string": "n/a"
+                },
+                "driver": {
+                    "string": "n/a"
+                },
+                "driver_config": {
+                    "string": "n/a"
+                },
+                "driver_path": {
+                    "string": "n/a"
+                },
+                "frames_acquired": {
+                    "number": 8
+                },
+                "frames_missed": {
+                    "number": 0
+                },
+                "height": {
+                    "number": 0
+                },
+                "index": {
+                    "number": 0
+                },
+                "name": "camA",
+                "timestamp": {
+                    "number": 90998047137
+                },
+                "trigger": {
+                    "number": 3
+                },
+                "trigger_interval": {
+                    "number": 100
+                },
+                "width": {
+                    "number": 0
+                }
+            },
+            "fileA": {
+                "acquired_lines": {
+                    "number": 0
+                },
+                "bytespp": {
+                    "number": 0
+                },
+                "create_id": "file",
+                "device": {
+                    "string": "n/a"
+                },
+                "driver": {
+                    "string": "n/a"
+                },
+                "driver_config": {
+                    "string": "n/a"
+                },
+                "driver_path": {
+                    "string": "n/a"
+                },
+                "file": {
+                    "string": "D:/Original.tif"
+                },
+                "height": {
+                    "number": 0
+                },
+                "name": "fileA",
+                "width": {
+                    "number": 0
+                }
+            }
+        },
+        "program": [
+            {
+                "data": {
+                    "children": [
+                        {
+                            "data": {
+                                "bytespp": {
+                                    "number": 0
+                                },
+                                "enabled": {
+                                    "bool": true
+                                },
+                                "height": {
+                                    "number": 0
+                                },
+                                "image_source": {
+                                    "supl": "fileA.handle"
+                                },
+                                "name": "acquireA",
+                                "status": {
+                                    "bool": true
+                                },
+                                "timeout": {
+                                    "number": 5000
+                                },
+                                "width": {
+                                    "number": 0
+                                }
+                            },
+                            "id": "image:acquire",
+                            "instr": "acquireA"
+                        },
+                        {
+                            "data": {
+                                "enabled": {
+                                    "bool": true
+                                },
+                                "executed_by_thread": {
+                                    "string": "main"
+                                },
+                                "name": "workspace_3dcloudA",
+                                "pass": {
+                                    "bool": true
+                                },
+                                "plugin_data": {
+                                    "overlay_data": ""
+                                },
+                                "src_image": {
+                                    "supl": "acquireA.image"
+                                },
+                                "tolerance": [
+                                ],
+                                "userdata": {
+                                    "handle": {
+                                        "showInProgramTree": false
+                                    },
+                                    "image": {
+                                        "showInProgramTree": false
+                                    },
+                                    "pass": {
+                                        "showInProgramTree": false
+                                    },
+                                    "window_geometry": {
+                                        "camAngle": 30,
+                                        "camFocalX": 116284,
+                                        "camFocalY": 144020,
+                                        "camFocalZ": 53594,
+                                        "camPosX": 116284,
+                                        "camPosY": 144020,
+                                        "camPosZ": 700386.4797199414,
+                                        "camScale": 167402.21198060675,
+                                        "camViewUpX": 0,
+                                        "camViewUpY": 1,
+                                        "camViewUpZ": 0,
+                                        "colorover": [
+                                            0,
+                                            0,
+                                            0,
+                                            255
+                                        ],
+                                        "colors": 0,
+                                        "colorsvalues": [
+                                        ],
+                                        "colorunder": [
+                                            0,
+                                            0,
+                                            0,
+                                            255
+                                        ],
+                                        "height": 500,
+                                        "lutautorange": true,
+                                        "lutcolors": 32,
+                                        "lutrangemax": 0,
+                                        "lutrangemin": 0,
+                                        "maximized": false,
+                                        "pal": "Cool to Warm",
+                                        "palcolors": 32,
+                                        "posx": 692,
+                                        "posy": 0,
+                                        "width": 660
+                                    }
+                                }
+                            },
+                            "id": "system:imageworkspace_cloud",
+                            "instr": "workspace_3dcloudA"
+                        },
+                        {
+                            "data": {
+                                "enabled": {
+                                    "bool": true
+                                },
+                                "invalid_z": {
+                                    "number": 0
+                                },
+                                "name": "convert3Dto16MA",
+                                "offset_x": {
+                                    "number": 29284
+                                },
+                                "offset_y": {
+                                    "number": 0
+                                },
+                                "offset_z": {
+                                    "number": 0
+                                },
+                                "sampling_rate": {
+                                    "number": 20
+                                },
+                                "scale_x": {
+                                    "number": 40
+                                },
+                                "scale_y": {
+                                    "number": 40
+                                },
+                                "scale_z": {
+                                    "number": 2,
+                                    "recv": "scaler.value"
+                                },
+                                "src_image": {
+                                    "supl": "acquireA.image"
+                                },
+                                "success": {
+                                    "bool": true
+                                }
+                            },
+                            "id": "image:convert3Dto16M",
+                            "instr": "convert3Dto16MA"
+                        },
+                        {
+                            "data": {
+                                "enabled": {
+                                    "bool": true
+                                },
+                                "fixed_range_max": {
+                                    "number": 65535
+                                },
+                                "fixed_range_min": {
+                                    "number": 0
+                                },
+                                "image_16": {
+                                    "supl": "convert3Dto16MA.image"
+                                },
+                                "method": {
+                                    "number": 0
+                                },
+                                "name": "convert_16_to_8A",
+                                "significant_bits": {
+                                    "number": 12
+                                }
+                            },
+                            "id": "image:convert_16_to_8",
+                            "instr": "convert_16_to_8A"
+                        },
+                        {
+                            "data": {
+                                "children": [
+                                    {
+                                        "data": {
+                                            "a": {
+                                                "number": 0.17710129572165292
+                                            },
+                                            "children": [
+                                                {
+                                                    "data": {
+                                                        "accept_score": {
+                                                            "number": 100
+                                                        },
+                                                        "angle": {
+                                                            "number": 0.17710129916667938
+                                                        },
+                                                        "angle_vec": {
+                                                            "numbervector": [
+                                                                0.17710129916667938
+                                                            ]
+                                                        },
+                                                        "bottom_right": {
+                                                            "point": "2433.50137588856614457 6138.36393694244543440"
+                                                        },
+                                                        "candidate_rel_score": {
+                                                            "number": 0
+                                                        },
+                                                        "candidate_scale": {
+                                                            "number": 4
+                                                        },
+                                                        "candidate_score": {
+                                                            "number": 50
+                                                        },
+                                                        "enabled": {
+                                                            "bool": true
+                                                        },
+                                                        "local_search": {
+                                                            "number": 0
+                                                        },
+                                                        "location": {
+                                                            "point": "2244.88011865399130329 5231.00152930705917242"
+                                                        },
+                                                        "location_vec": {
+                                                            "pointvector": [
+                                                                "2244.88011865399130329 5231.00152930705917242"
+                                                            ]
+                                                        },
+                                                        "max_candidates": {
+                                                            "number": 4
+                                                        },
+                                                        "max_matches": {
+                                                            "number": 1
+                                                        },
+                                                        "min_contrast": {
+                                                            "number": 0
+                                                        },
+                                                        "min_score": {
+                                                            "number": 50
+                                                        },
+                                                        "name": "search_areaA",
+                                                        "num_matches": {
+                                                            "number": 1
+                                                        },
+                                                        "output_type": {
+                                                            "number": 0
+                                                        },
+                                                        "pattern_name": {
+                                                            "string": "patternA"
+                                                        },
+                                                        "pattern_name_vec": {
+                                                            "stringvector": [
+                                                                "patternA"
+                                                            ]
+                                                        },
+                                                        "relative_score": {
+                                                            "number": 0
+                                                        },
+                                                        "scale": {
+                                                            "number": 0.9500000476837158
+                                                        },
+                                                        "scale_vec": {
+                                                            "numbervector": [
+                                                                0.9500000476837158
+                                                            ]
+                                                        },
+                                                        "score": {
+                                                            "number": 78.00043487548828
+                                                        },
+                                                        "score_vec": {
+                                                            "numbervector": [
+                                                                78.00043487548828
+                                                            ]
+                                                        },
+                                                        "subpixel": {
+                                                            "bool": false
+                                                        },
+                                                        "subpixel_resolution": {
+                                                            "number": 0
+                                                        },
+                                                        "timeout": {
+                                                            "number": 10000
+                                                        },
+                                                        "timeout_enabled": {
+                                                            "bool": false
+                                                        },
+                                                        "top_left": {
+                                                            "point": "2056.25886141941646201 4323.63912167167291045"
+                                                        },
+                                                        "userdata": {
+                                                            "angle_vec": {
+                                                                "showInProgramTree": false
+                                                            },
+                                                            "bottom_right": {
+                                                                "showInProgramTree": false
+                                                            },
+                                                            "handle": {
+                                                                "showInProgramTree": false
+                                                            },
+                                                            "image": {
+                                                                "showInProgramTree": false
+                                                            },
+                                                            "location": {
+                                                                "gr_data_workspace_mono8A": {
+                                                                    "hi": false,
+                                                                    "label": true,
+                                                                    "label_x": 12,
+                                                                    "label_y": 12
+                                                                },
+                                                                "gr_windows": [
+                                                                    "workspace_mono8A"
+                                                                ]
+                                                            },
+                                                            "location_vec": {
+                                                                "showInProgramTree": false
+                                                            },
+                                                            "pattern_name_vec": {
+                                                                "showInProgramTree": false
+                                                            },
+                                                            "scale_vec": {
+                                                                "showInProgramTree": false
+                                                            },
+                                                            "score_vec": {
+                                                                "showInProgramTree": false
+                                                            },
+                                                            "top_left": {
+                                                                "showInProgramTree": false
+                                                            }
+                                                        },
+                                                        "x_vicinity": {
+                                                            "number": 10
+                                                        },
+                                                        "y_vicinity": {
+                                                            "number": 10
+                                                        }
+                                                    },
+                                                    "id": "algorithm:search_area",
+                                                    "instr": "search_areaA"
+                                                }
+                                            ],
+                                            "cx": {
+                                                "number": 2120.0000000000005
+                                            },
+                                            "cy": {
+                                                "number": 5520
+                                            },
+                                            "enabled": {
+                                                "bool": true
+                                            },
+                                            "error_on_roi_outside": {
+                                                "bool": false
+                                            },
+                                            "h": {
+                                                "number": 4847.766188058183
+                                            },
+                                            "interpolation": {
+                                                "number": 0
+                                            },
+                                            "label_pos": {
+                                                "point": "10.00000000000000000 -20.00000000000000000"
+                                            },
+                                            "lock_movement": {
+                                                "bool": false
+                                            },
+                                            "mask_input": {
+                                                "bool": false
+                                            },
+                                            "mask_output": {
+                                                "bool": false
+                                            },
+                                            "modify_image": {
+                                                "bool": true
+                                            },
+                                            "name": "rectC",
+                                            "pass": {
+                                                "bool": true
+                                            },
+                                            "plugin_data": {
+                                                "mask_descr": {
+                                                    "invert": false
+                                                }
+                                            },
+                                            "proc_slots": {
+                                                "boolvector": [
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    true,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false
+                                                ]
+                                            },
+                                            "roi_in_image": {
+                                                "bool": true
+                                            },
+                                            "show_roi": {
+                                                "bool": true
+                                            },
+                                            "tolerance": [
+                                            ],
+                                            "userdata": {
+                                                "image": {
+                                                    "showInProgramTree": false
+                                                },
+                                                "parent_image": {
+                                                    "showInProgramTree": false
+                                                },
+                                                "pass": {
+                                                    "showInProgramTree": false
+                                                },
+                                                "roi_in_image": {
+                                                    "showInProgramTree": false
+                                                }
+                                            },
+                                            "w": {
+                                                "number": 2505.0275419483587
+                                            }
+                                        },
+                                        "id": "roi:rectangle",
+                                        "instr": "rectC"
+                                    }
+                                ],
+                                "display_palette": {
+                                    "number": 0
+                                },
+                                "enabled": {
+                                    "bool": true
+                                },
+                                "executed_by_thread": {
+                                    "string": "main"
+                                },
+                                "grid_size": {
+                                    "number": 50
+                                },
+                                "name": "workspace_mono8A",
+                                "pass": {
+                                    "bool": true
+                                },
+                                "plugin_data": {
+                                    "overlay_data": "AAAAIwAAABgAcwBlAGEAcgBjAGgAXwBhAHIAZQBhAEEAAAACAAAABgByAGUAZAAAAAIAAAABAAAAHEChicKe6Yb8QLRvAGQ5g84AAAAmAHAAYQB0AHQAZQByAG4AQQAgAFsANwA4AC4AMAAwADAANAAlAF0AAAACAAAACgBnAHIAZQBlAG4AAAACAAAAAQAAABRAoYnCnumG/EC0bwBkOYPOQHftmaAAAABAnFYzQAAAAD9pUkxoYwZcAAAAJAAAABgAcwBlAGEAcgBjAGgAXwBhAHIAZQBhAEE="
+                                },
+                                "show_grid": {
+                                    "bool": false
+                                },
+                                "src_image": {
+                                    "supl": "convert_16_to_8A.image_8"
+                                },
+                                "tolerance": [
+                                ],
+                                "userdata": {
+                                    "handle": {
+                                        "showInProgramTree": false
+                                    },
+                                    "image": {
+                                        "showInProgramTree": false
+                                    },
+                                    "pass": {
+                                        "showInProgramTree": false
+                                    },
+                                    "window_geometry": {
+                                        "hScroll": 0,
+                                        "height": 528,
+                                        "maximized": false,
+                                        "posx": 730,
+                                        "posy": 99,
+                                        "vScroll": 0,
+                                        "width": 668,
+                                        "zoom": 0.075
+                                    }
+                                }
+                            },
+                            "id": "system:imageworkspace_m8",
+                            "instr": "workspace_mono8A"
+                        },
+                        {
+                            "data": {
+                                "children": [
+                                    {
+                                        "data": {
+                                            "a": {
+                                                "number": 0.6129049546712421
+                                            },
+                                            "alignment": {
+                                                "supl": "alignmentA.handle"
+                                            },
+                                            "children": [
+                                                {
+                                                    "data": {
+                                                        "average": {
+                                                            "number": 40164.99797775531,
+                                                            "recv": "under_Average.value"
+                                                        },
+                                                        "enabled": {
+                                                            "bool": true
+                                                        },
+                                                        "name": "average_16A",
+                                                        "userdata": {
+                                                            "image": {
+                                                                "showInProgramTree": false
+                                                            }
+                                                        }
+                                                    },
+                                                    "id": "algorithm:average_16",
+                                                    "instr": "average_16A"
+                                                }
+                                            ],
+                                            "cx": {
+                                                "number": 1426.0715619397413
+                                            },
+                                            "cy": {
+                                                "number": 2196.102007219135
+                                            },
+                                            "enabled": {
+                                                "bool": true
+                                            },
+                                            "error_on_roi_outside": {
+                                                "bool": false
+                                            },
+                                            "h": {
+                                                "number": 171.72196261792294
+                                            },
+                                            "interpolation": {
+                                                "number": 0
+                                            },
+                                            "label_pos": {
+                                                "point": "10.00000000000000000 -20.00000000000000000"
+                                            },
+                                            "lock_movement": {
+                                                "bool": false
+                                            },
+                                            "mask_input": {
+                                                "bool": false
+                                            },
+                                            "mask_output": {
+                                                "bool": false
+                                            },
+                                            "modify_image": {
+                                                "bool": true
+                                            },
+                                            "name": "Height_Under",
+                                            "pass": {
+                                                "bool": true
+                                            },
+                                            "plugin_data": {
+                                                "mask_descr": {
+                                                    "invert": false
+                                                }
+                                            },
+                                            "proc_slots": {
+                                                "boolvector": [
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    true,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false
+                                                ]
+                                            },
+                                            "roi_in_image": {
+                                                "bool": true
+                                            },
+                                            "show_roi": {
+                                                "bool": true
+                                            },
+                                            "tolerance": [
+                                            ],
+                                            "userdata": {
+                                                "image": {
+                                                    "showInProgramTree": false
+                                                },
+                                                "parent_image": {
+                                                    "showInProgramTree": false
+                                                },
+                                                "pass": {
+                                                    "showInProgramTree": false
+                                                },
+                                                "roi_in_image": {
+                                                    "showInProgramTree": false
+                                                }
+                                            },
+                                            "w": {
+                                                "number": 45.98266552891326
+                                            }
+                                        },
+                                        "id": "roi:rectangle",
+                                        "instr": "Height_Under"
+                                    },
+                                    {
+                                        "data": {
+                                            "a": {
+                                                "number": -1.1780360605217168
+                                            },
+                                            "alignment": {
+                                                "supl": "alignmentA.handle"
+                                            },
+                                            "children": [
+                                                {
+                                                    "data": {
+                                                        "average": {
+                                                            "number": 45422.602739726026,
+                                                            "recv": "Top_Average.value"
+                                                        },
+                                                        "enabled": {
+                                                            "bool": true
+                                                        },
+                                                        "name": "average_16B",
+                                                        "userdata": {
+                                                            "image": {
+                                                                "showInProgramTree": false
+                                                            }
+                                                        }
+                                                    },
+                                                    "id": "algorithm:average_16",
+                                                    "instr": "average_16B"
+                                                }
+                                            ],
+                                            "cx": {
+                                                "number": 3009.325647452826
+                                            },
+                                            "cy": {
+                                                "number": 3248.786449698154
+                                            },
+                                            "enabled": {
+                                                "bool": true
+                                            },
+                                            "error_on_roi_outside": {
+                                                "bool": false
+                                            },
+                                            "h": {
+                                                "number": 145.85125175178453
+                                            },
+                                            "interpolation": {
+                                                "number": 0
+                                            },
+                                            "label_pos": {
+                                                "point": "10.00000000000000000 -20.00000000000000000"
+                                            },
+                                            "lock_movement": {
+                                                "bool": false
+                                            },
+                                            "mask_input": {
+                                                "bool": false
+                                            },
+                                            "mask_output": {
+                                                "bool": false
+                                            },
+                                            "modify_image": {
+                                                "bool": true
+                                            },
+                                            "name": "Height_Top",
+                                            "pass": {
+                                                "bool": true
+                                            },
+                                            "plugin_data": {
+                                                "mask_descr": {
+                                                    "invert": false
+                                                }
+                                            },
+                                            "proc_slots": {
+                                                "boolvector": [
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    true,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false
+                                                ]
+                                            },
+                                            "roi_in_image": {
+                                                "bool": true
+                                            },
+                                            "show_roi": {
+                                                "bool": true
+                                            },
+                                            "tolerance": [
+                                            ],
+                                            "userdata": {
+                                                "image": {
+                                                    "showInProgramTree": false
+                                                },
+                                                "parent_image": {
+                                                    "showInProgramTree": false
+                                                },
+                                                "pass": {
+                                                    "showInProgramTree": false
+                                                },
+                                                "roi_in_image": {
+                                                    "showInProgramTree": false
+                                                }
+                                            },
+                                            "w": {
+                                                "number": 165.05167826109442
+                                            }
+                                        },
+                                        "id": "roi:rectangle",
+                                        "instr": "Height_Top"
+                                    }
+                                ],
+                                "display_bits": {
+                                    "number": 12
+                                },
+                                "display_palette": {
+                                    "number": 0
+                                },
+                                "enabled": {
+                                    "bool": true
+                                },
+                                "executed_by_thread": {
+                                    "string": "main"
+                                },
+                                "grid_size": {
+                                    "number": 50
+                                },
+                                "name": "workspace_mono16A",
+                                "pass": {
+                                    "bool": true
+                                },
+                                "plugin_data": {
+                                    "overlay_data": ""
+                                },
+                                "show_grid": {
+                                    "bool": false
+                                },
+                                "src_image": {
+                                    "supl": "convert3Dto16MA.image"
+                                },
+                                "tolerance": [
+                                ],
+                                "userdata": {
+                                    "display_bits": {
+                                        "showInProgramTree": false
+                                    },
+                                    "handle": {
+                                        "showInProgramTree": false
+                                    },
+                                    "image": {
+                                        "showInProgramTree": false
+                                    },
+                                    "pass": {
+                                        "showInProgramTree": false
+                                    },
+                                    "window_geometry": {
+                                        "hScroll": 0,
+                                        "height": 528,
+                                        "maximized": false,
+                                        "posx": 24,
+                                        "posy": 97,
+                                        "vScroll": 0,
+                                        "width": 668,
+                                        "zoom": 0.1
+                                    }
+                                }
+                            },
+                            "id": "system:imageworkspace_m16",
+                            "instr": "workspace_mono16A"
+                        },
+                        {
+                            "data": {
+                                "code": {
+                                    "script": "ve.TopHeightZ.value=(ve.Top_Average.value*ve.scaler.value)-ve.HOffset.value"
+                                },
+                                "enabled": {
+                                    "bool": true
+                                },
+                                "name": "top_zHeight_Calc"
+                            },
+                            "id": "system:script",
+                            "instr": "top_zHeight_Calc"
+                        },
+                        {
+                            "data": {
+                                "code": {
+                                    "script": "ve.UnderHeightZ.value=(ve.under_Average.value*ve.scaler.value)-ve.HOffset.value\n"
+                                },
+                                "enabled": {
+                                    "bool": true
+                                },
+                                "name": "under_zHeight_Calc"
+                            },
+                            "id": "system:script",
+                            "instr": "under_zHeight_Calc"
+                        },
+                        {
+                            "data": {
+                                "difference": {
+                                    "number": 10515.209523941434,
+                                    "recv": "distance.value"
+                                },
+                                "enabled": {
+                                    "bool": true
+                                },
+                                "n1": {
+                                    "number": 0,
+                                    "supl": "TopHeightZ.value"
+                                },
+                                "n2": {
+                                    "number": 0,
+                                    "supl": "UnderHeightZ.value"
+                                },
+                                "name": "subtractA"
+                            },
+                            "id": "number:subtract",
+                            "instr": "subtractA"
+                        }
+                    ],
+                    "enabled": {
+                        "bool": true
+                    },
+                    "name": "main",
+                    "run_count": {
+                        "number": 108
+                    },
+                    "run_on": {
+                        "number": 0
+                    },
+                    "runs_per_second": {
+                        "number": 0.05727452003862001
+                    },
+                    "tab_index": {
+                        "number": 0
+                    },
+                    "time_since_last_call": {
+                        "number": 27708616.124
+                    }
+                },
+                "id": "system:subroutine",
+                "instr": "main"
+            }
+        ],
+        "variableMgr": {
+            "HOffset": {
+                "create_id": "number",
+                "name": "HOffset",
+                "value": {
+                    "number": 16070
+                }
+            },
+            "TopHeightZ": {
+                "create_id": "number",
+                "name": "TopHeightZ",
+                "value": {
+                    "number": 74775.20547945205
+                }
+            },
+            "Top_Average": {
+                "create_id": "number",
+                "name": "Top_Average",
+                "value": {
+                    "number": 45422.602739726026
+                }
+            },
+            "UnderHeightZ": {
+                "create_id": "number",
+                "name": "UnderHeightZ",
+                "value": {
+                    "number": 64259.99595551062
+                }
+            },
+            "__valueOrder": [
+                "HOffset",
+                "under_Average",
+                "Top_Average",
+                "scaler",
+                "UnderHeightZ",
+                "TopHeightZ",
+                "distance"
+            ],
+            "distance": {
+                "create_id": "number",
+                "name": "distance",
+                "value": {
+                    "number": 10515.209523941434
+                }
+            },
+            "scaler": {
+                "create_id": "number",
+                "name": "scaler",
+                "value": {
+                    "number": 2
+                }
+            },
+            "under_Average": {
+                "create_id": "number",
+                "name": "under_Average",
+                "value": {
+                    "number": 40164.99797775531
+                }
+            }
+        }
+    },
+    "info": {
+        "engine build": "x86_64 Jun  6 2022 07:07:28",
+        "engine storage version": 1,
+        "engine version": 1,
+        "os running": "x86_64 Windows 10 (10.0)",
+        "program save time": "03 Nov 2022 16:16:24 +0900"
+    },
+    "tabbedMode": false,
+    "watchedValues": [
+    ]
+}
